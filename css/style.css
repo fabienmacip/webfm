@@ -313,24 +313,23 @@ header .logo {
 
 #div-image-accueil {
   font-size: 6rem;
-
   min-height: 400px;
   background-image: url("../img/logo/fabien_macip_linked_in_banniere.jpg");
   background-position: center;
+  background-color: black;
+  background-blend-mode: hard-light;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   color: var(--main-color-white);
   text-shadow: 3px 3px 3px var(--main-color-red);
-
   margin-bottom: 1rem;
-
   transition-property: color;
   transition-delay: 100ms;
   transition-timing-function: ease;
   transition-duration: 1s;
+  -webkit-backface-visibility: ;
 }
 
 #div-image-accueil:hover {
@@ -364,7 +363,7 @@ header .logo {
 }
 
 #image-accueil-text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .span-br {
@@ -399,6 +398,10 @@ header .logo {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
+}
+
+#accueil-realisations {
+  margin-top: 30px;
 }
 
 #liste-realisations {
@@ -862,6 +865,22 @@ header .logo {
 
   #div-image-accueil {
     font-size: 3rem;
+  }
+
+  #liste-realisations .realisations-card-img {
+    height: unset;
+  }
+
+  .realisations-card-left-arrow {
+    position: absolute;
+    top: calc(35%);
+    left: 10px;
+  }
+
+  .realisations-card-right-arrow {
+    position: absolute;
+    top: calc(35%);
+    right: 10px;
   }
 
   .span-dash {

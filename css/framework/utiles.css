@@ -170,6 +170,86 @@ img {
   );
 }
 
+.linear-g-CustHomeBike {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-custhomebike) 90%,
+    var(--main-color-custhomebike)
+  );
+}
+
+.linear-g-Fatabien {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-fatabien) 90%,
+    var(--main-color-fatabien)
+  );
+}
+
+.linear-g-ImmoCashFlow {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-immocashflow) 90%,
+    var(--main-color-immocashflow)
+  );
+}
+
+.linear-g-Lmh {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-lmh) 90%,
+    var(--main-color-lmh)
+  );
+}
+
+.linear-g-MacipCourtage {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-macip-courtage) 90%,
+    var(--main-color-macip-courtage)
+  );
+}
+
+.linear-g-MontsEtLacs {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-montsetlacs) 90%,
+    var(--main-color-montsetlacs)
+  );
+}
+
+.linear-g-Msr34 {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-msr34) 90%,
+    var(--main-color-msr34)
+  );
+}
+
+.linear-g-PcfLcf {
+  background: linear-gradient(
+    160deg,
+    var(--main-color-white),
+    var(--main-color-white) 10%,
+    var(--main-color-pcf-lcf) 90%,
+    var(--main-color-pcf-lcf)
+  );
+}
+
 /* TYPE D'AFFICHAGE */
 
 .block {

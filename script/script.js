@@ -10,6 +10,14 @@ window.addEventListener("load", function () {
 
   localStorage.setItem("currentImgActiform", "1");
   localStorage.setItem("currentImgAppartementRentable", "1");
+  localStorage.setItem("currentImgCustHomeBike", "1");
+  localStorage.setItem("currentImgFatabien", "1");
+  localStorage.setItem("currentImgImmoCashFlow", "1");
+  localStorage.setItem("currentImgLmh", "1");
+  localStorage.setItem("currentImgMacipCourtage", "1");
+  localStorage.setItem("currentImgMontsEtLacs", "1");
+  localStorage.setItem("currentImgMsr34", "1");
+  localStorage.setItem("currentImgPcfLcf", "1");
 });
 
 function previousRealisationImg(cardName) {
