@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   row-gap: 2rem;
 }
@@ -19,6 +20,12 @@
   margin: 1rem;
   text-align: center;
   margin: auto;
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #main-technologies img {
@@ -29,6 +36,13 @@
 /* #arec-img {
   max-width: 230px;
 } */
+
+@media screen and (max-width: 732px) {
+  #main-technologies > div {
+    /* flex: 1; */
+    width: 45%;
+  }
+}
 
 @media screen and (max-width: 560px) {
   #main-technologies {
@@ -44,5 +58,11 @@
 @media screen and (max-width: 400px) {
   #mes-technos-div h1 {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #main-technologies > div {
+    min-height: unset;
   }
 }

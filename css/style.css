@@ -364,6 +364,24 @@ header .logo {
 
 #image-accueil-text {
   font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#image-accueil-text > div {
+  width: 45%;
+  background-color: rgba(243, 243, 243, 0.7);
+  padding: 1rem;
+}
+
+#image-accueil-text h4 {
+  text-decoration: underline;
+  text-decoration-color: var(--main-color-yellow);
+  -moz-text-decoration-color: var(--main-color-yellow);
 }
 
 .span-br {
@@ -379,6 +397,8 @@ header .logo {
 #accueil-sport-plaisir {
   /*   background-image: url("../img/activites/actiform-plaisir.jpg");
   background-position: center; */
+  width: 95%;
+  max-width: 800px;
 }
 
 #accueil-sport-plaisir p {
@@ -836,6 +856,10 @@ header .logo {
     text-shadow: 2px 2px 2px var(--main-color-white);
   }
 
+  #image-accueil-text > div {
+    width: 95%;
+  }
+
   .span-br {
     display: inline;
   }
@@ -865,6 +889,10 @@ header .logo {
 
   #div-image-accueil {
     font-size: 3rem;
+  }
+
+  #image-accueil-text > div {
+    width: 100%;
   }
 
   #liste-realisations .realisations-card-img {
@@ -924,6 +952,10 @@ header .logo {
 
   #div-image-accueil {
     font-size: 2rem;
+  }
+
+  #image-accueil-text {
+    font-size: 1.2rem;
   }
 }
 

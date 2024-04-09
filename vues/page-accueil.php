@@ -14,11 +14,21 @@
       <h3>D&eacute;veloppeur web fullstack</h3>
 
       <div id="image-accueil-text">
-        JavaScript (Vanilla) & Angular<br>
-        CSS & Bootstrap<br>
-        PHP (Native) & Symfony<br>
-        Node.js & Express.js<br>
-        MySQL - MongoDB<br>
+        <div>
+          <h4>Services</h4>
+          Sites Internet (vitrine)<br>
+          Sites Internet (avec outils personnalis&eacute;s)<br>
+          Applications<br>
+          Blogs<br>
+        </div>
+        <div>
+          <h4>Technologies</h4>
+          JavaScript (Vanilla) & Angular<br>
+          CSS & Bootstrap<br>
+          PHP (Native) & Symfony<br>
+          Node.js & Express.js<br>
+          MySQL - MongoDB<br>
+        </div>
       </div>
     </div>
 
