@@ -7,6 +7,18 @@
   text-align: center;
 }
 
+#mon-cv-photo-id {
+  margin: 2rem auto;
+  width: 40%;
+  max-width: 300px;
+}
+
+#mon-cv-photo-id > img {
+  border: 2px solid silver;
+
+  border-radius: 50%;
+}
+
 #mon-cv-imgs {
   text-align: center;
   font-size: 11px;

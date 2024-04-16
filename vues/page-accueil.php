@@ -9,7 +9,7 @@
 
   <div class="row max-width-100percent jcc wrap" id="accueil-text-boxes">
     <div class="accueil-text-boxes box" id="accueil-sport-plaisir">
-      <h2>Bienvenue chez WEBFM</h2>
+      <h2>Fabien MACIP (webfm.fr)</h2>
   
       <h3>D&eacute;veloppeur web fullstack</h3>
 
