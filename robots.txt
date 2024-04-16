@@ -1,0 +1,13 @@
+User-agent: Googlebot
+Disallow: /app/
+Disallow: /audio/
+Disallow: /css/
+Disallow: /data/
+Disallow: /images/
+Disallow: /scripts/
+
+User-agent: Yahoo! Slurp
+Disallow: *
+
+User-agent: *
+Allow: /

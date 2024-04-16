@@ -78,10 +78,10 @@
   $projet2->nbImages = 2;
   $projet2->descriptionCommerciale = [
     "Blog Responsive (adapt&eacute; &agrave; toutes tailles d'&eacute;crans)",
+    ["Espace priv&eacute; administrateur", "Publication/Gestion des articles","Modification de son mot de passe"]
   ];
   $projet2->descriptionTechnique = [
-    "CMS &rarr; WordPress",
-    ["Espace priv&eacute; administrateur", "Publication/Gestion des articles","Modification de son mot de passe"]
+    "CMS &rarr; WordPress"
   ];
 
   $projet3 = new Projet();
@@ -228,7 +228,7 @@
     "Architecture &rarr; M.V.C."
   ];
 
-  $projets = [$projet1, $projet2, $projet3, $projet4, $projet5, $projet6, $projet7, $projet8, $projet9, $projet10];
+  $projets = [$projet1, $projet9, $projet6, $projet3, $projet5, $projet4, $projet7, $projet8, $projet2, $projet10];
 
 ?>
 

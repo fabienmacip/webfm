@@ -37,13 +37,21 @@ elseif (isset($_GET['page']) && 'contact-horaires' === $_GET['page']) {
 }
 
 /* TECHNOLOGIES */
-
 elseif (isset($_GET['page']) && 'technologies' === $_GET['page']){
     ob_start();
     require_once('vues/page-technologies.php');
     $contenu = ob_get_clean();
     require_once('vues/layout.php');
 }
+
+/* MON CV */
+elseif (isset($_GET['page']) && 'mon-cv' === $_GET['page']){
+    ob_start();
+    require_once('vues/page-mon-cv.php');
+    $contenu = ob_get_clean();
+    require_once('vues/layout.php');
+}
+
 
 else {
     ob_start();

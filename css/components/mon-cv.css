@@ -1,0 +1,30 @@
+#mon-cv-div {
+}
+
+#mon-cv-div h1,
+#mon-cv-div h2 {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#mon-cv-imgs {
+  text-align: center;
+  font-size: 11px;
+}
+
+#mon-cv-imgs > img {
+  width: 800px;
+  max-width: 100%;
+  border: 1px solid gray;
+  margin-top: 1rem;
+}
+
+#iframe-cv {
+  height: 600px;
+}
+
+@media screen and (max-width: 732px) {
+  #iframe-cv {
+    height: 300;
+  }
+}
