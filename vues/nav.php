@@ -20,8 +20,18 @@
                 <!-- <li class="nav-item"><a href="index.php?page=temoignages" class="nav-link">T&eacute;moignages</a></li> -->
             </ul>
 
+            <div id="github-icon">
+                    <a href="https://github.com/fabienmacip/" title="github" alt="Fabien Macip sur GitHub" target="_blank">
+                        <img
+                            id="github-img"
+                            class="contacts-icon"
+                            src="img/icones/github.png"
+                            alt="github"
+                        >
+                    </a>
+            </div>
             <div id="linkedin-icon">
-                    <a href="https://www.linkedin.com/in/fabien-macip/" alt="Fabien Macip sur LinkedIn" target="_blank">
+                    <a href="https://www.linkedin.com/in/fabien-macip/" title="LinkedIn" alt="Fabien Macip sur LinkedIn" target="_blank">
                         <img
                             id="linkedin-img"
                             class="contacts-icon"
@@ -30,6 +40,9 @@
                         >
                     </a>
             </div>
+            
+
+
             <!-- ADDED -->
         </div>
         <!-- FIN ADDED -->

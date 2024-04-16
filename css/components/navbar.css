@@ -88,8 +88,24 @@ nav a:hover {
 }
 
 #facebook-icon,
+#github-icon,
 #connect-icon {
   margin-right: 1rem;
+}
+
+#github-img,
+#linkedin-img {
+  border: 2px solid black;
+}
+
+#github-img,
+#linkedin-img {
+  border-radius: 10px;
+}
+
+#github-img:hover,
+#linkedin-img:hover {
+  border-color: red;
 }
 
 @media screen and (max-width: 1400px) {
@@ -113,6 +129,11 @@ nav a:hover {
     margin-left: 0;
     margin-top: 1.5rem;
     border-top: 0.1px solid #d6d6d6;
+  }
+
+  #github-icon {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   /* * * * * * * * SOUS-MENUS * * * * * * */
