@@ -3,11 +3,11 @@
 <?php
     $_RAISON_SOCIALE = "WEBFM";
     $_CAPITAL = "1 000,00";
-    $_RCS = "RCS B&eacute;ziers (en cours d'immatriculation)";
-    $_ADRESSE_SIEGE_SOCIAL = "9 bis, rue Ermengaud, 34500 BEZIERS";
+    $_RCS = "RCS B&eacute;ziers - SIRET 824 249 544 00035 (actuellement micro-entreprise, S.A.S. Webfm en cours de cr&eacute;ation)";
+    $_ADRESSE_SIEGE_SOCIAL = "9 bis, rue Ermengaud, 34500 BEZIERS (transfert en cours au : 19, rue de Neptune, 34350 VENDRES)";
     $_TELEPHONE = "06 63 62 70 45";
     $_MAIL = "contact@webfm.fr";
-    $_TVA = "en cours d'immatriculation";
+    $_TVA = "actuellement non-applicable (S.A.S. Webfm en cours d'immatriculation)";
     $_DIRECTEUR_PUBLICATION = "Monsieur Fabien MACIP";
     $_QUALITE_DIRECTEUR_PUBLICATION = "pr&eacute;sident";
     $_DONNEES_PERSONNELLES_STOCKEES = "

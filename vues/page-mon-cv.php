@@ -4,6 +4,15 @@
     <div class="tc mb-15">
         <a href="assets/doc/CV_Fabien_MACIP.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV au format PDF</a>
     </div>
+    <div class="tc mb-15">
+        <a href="assets/doc/CV_Fabien_MACIP_sans_en_tete.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV <u>sans en-t&ecirc;te (anonym&eacute;)</u> au format PDF</a>
+    </div>
+    <div class="tc mb-15">
+        <a href="assets/doc/CV_Fabien_MACIP_avec_photo.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV <u>avec photo</u> au format PDF</a>
+    </div>
+    <div class="tc mb-15">
+        <a href="assets/doc/CV_Fabien_MACIP_enseignant.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV <u>enseignant</u> au format PDF</a>
+    </div>
 
     <div id="mon-cv-photo-id">
         <img src="img/mon-cv/fabien-macip.jpg" alt="fabien macip photo identité" class="box">
