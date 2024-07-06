@@ -1,0 +1,75 @@
+#cyber-resilience-div a {
+  color: var(--main-color-red);
+}
+
+#cyber-resilience-div li {
+  list-style: disc;
+}
+
+#cyber-resilience-div ul {
+  padding-left: 2rem;
+}
+
+#cyber-resilience-div > div {
+  margin: 29px auto;
+  width: 96%;
+  max-width: 1000px;
+  padding: 2rem;
+  box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#cyber-resilience-div h1,
+#cyber-resilience-div h2 {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#cr-presentation {
+  background: linear-gradient(135deg, #fff, #fff 25%, #bbb 90%, #bbb);
+}
+
+.cyber-partner {
+  display: flex;
+  flex-direction: row;
+}
+
+.cyber-partner > div {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.cyber-partner > div:first-child {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cyber-partner > div:first-child > a > img {
+  width: 100%;
+}
+
+.cyber-partner > div:nth-child(2) {
+  flex: 3;
+  text-align: left;
+  padding: 0 10%;
+}
+
+@media (max-width: 768px) {
+  .cyber-partner {
+    flex-direction: column;
+  }
+
+  .cyber-partner > div:first-child {
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cyber-partner > div:first-child > a > img {
+    max-width: 200px;
+  }
+}

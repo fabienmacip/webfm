@@ -52,6 +52,13 @@ elseif (isset($_GET['page']) && 'mon-cv' === $_GET['page']){
     require_once('vues/layout.php');
 }
 
+/* CYBER RESILIENCE */
+elseif (isset($_GET['page']) && 'cyber-resilience' === $_GET['page']){
+    ob_start();
+    require_once('vues/page-cyber-resilience.php');
+    $contenu = ob_get_clean();
+    require_once('vues/layout.php');
+}
 
 else {
     ob_start();
