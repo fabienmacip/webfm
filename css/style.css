@@ -339,6 +339,14 @@ header .logo {
 
 /* - - - - - - - A C C U E I L   ---   T E X T   B O X E S - - - - - - - - - - */
 
+#accueil-realisations-precisions {
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+  margin: 1rem auto 2rem auto;
+  text-align: left;
+}
+
 .accueil-text-boxes {
   width: 98%;
   max-width: 98%;

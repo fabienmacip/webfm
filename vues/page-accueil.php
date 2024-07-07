@@ -235,6 +235,15 @@
 
     <div id="accueil-realisations" class="accueil-text-boxes">
       <h2>Quelques r&eacute;alisations</h2>
+      <p id="accueil-realisations-precisions" class="box">
+        <b>NB :</b> chaque site que je r&eacute;alise pour mes clients directs est fait en <u>Vanilla JavaScript + PHP-Native + MySQL</u>.<br><br>
+        Ce qui signifie que, dans ces cas l&agrave;, je n'utilise pas de framework (REACT, ANGULAR, SYMFONY, NEST...), ceci pour 2 raisons :<br><br>
+          1. Je n'ai pas besoin de framework pour un site de petite ou moyenne envergure et que <b>je 
+            d&eacute;veloppe seul</b>.<br><br>
+          2. Une fois le site livr&eacute; au client, ce site est <b>facilement maintenable</b> par la plupart 
+            des d&eacute;veloppeurs, pas besoin de trouver un sp&eacute;cialiste ANGULAR, ou SYMFONY... Je reste 
+            toutefois tr&egrave;s souvent la personne qui g&egrave;re cette maintenance.
+      </p>
       <p>
         <div id="liste-realisations">
 
