@@ -60,6 +60,15 @@ elseif (isset($_GET['page']) && 'cyber-resilience' === $_GET['page']){
     require_once('vues/layout.php');
 }
 
+/* TARIFS */
+elseif (isset($_GET['page']) && 'tarifs' === $_GET['page']){
+    ob_start();
+    require_once('vues/page-tarifs.php');
+    $contenu = ob_get_clean();
+    require_once('vues/layout.php');
+}
+
+
 else {
     ob_start();
     require_once('vues/page-accueil.php');

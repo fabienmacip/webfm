@@ -15,6 +15,7 @@
                 <li class="nav-item"><a href="index.php?page=technologies" class="nav-link">Technos</a></li>
                 <li class="nav-item"><a href="index.php?page=mon-cv" class="nav-link">Mon CV</a></li>
                 <li class="nav-item"><a href="index.php?page=cyber-resilience" class="nav-link">Cyber-R&eacute;silience</a></li>
+                <li class="nav-item"><a href="index.php?page=tarifs" class="nav-link">Tarifs</a></li>
                 <li class="nav-item"><a href="index.php?page=contact-horaires" class="nav-link">Contact & Horaires</a></li>
                 
                 <!-- <li class="nav-item"><a href="index.php?page=offres-avantages" class="nav-link">Offres & Avantages</a></li> -->

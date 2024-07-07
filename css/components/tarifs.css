@@ -1,0 +1,98 @@
+#tarifs-div {
+}
+
+#tarifs-div > h1 {
+  text-align: center;
+  margin: 1rem auto 0 auto;
+}
+
+#tarifs-div > div {
+  width: 100%;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+
+  background: linear-gradient(135deg, #fff, #fff 25%, #ddd 90%, #ccc);
+}
+
+#tarifs-div > div > h2 {
+  text-align: center;
+  margin: 0.5rem auto 2rem auto;
+  line-height: 150%;
+}
+
+.tarifs-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+}
+
+.tarifs-details ul {
+  margin: 1rem 2rem;
+}
+
+.tarifs-details li {
+  list-style: disc;
+}
+
+.tarifs-details > div {
+  flex: 45%;
+  padding: 1rem;
+}
+
+.tarifs-details > div:nth-child(odd) {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid black;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.tarifs-details > div:nth-child(even) {
+  border: 1px solid black;
+}
+
+@media (max-width: 732px) {
+  .tarifs-details > div:nth-child(odd) {
+    flex: 30%;
+  }
+  .tarifs-details > div:nth-child(even) {
+    flex: 60%;
+  }
+}
+
+@media (max-width: 560px) {
+  #tarifs-div > div {
+    padding: 0.5rem;
+  }
+
+  #tarifs-div > div > h2 {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    padding: 0 1rem;
+  }
+
+  .tarifs-details {
+    flex-direction: column;
+    row-gap: 0;
+  }
+
+  .tarifs-details > div {
+    flex: 90%;
+  }
+
+  .tarifs-details > div:nth-child(odd) {
+    border-right: 1px solid black;
+    border-bottom: 0px solid black;
+  }
+
+  .tarifs-details > div:nth-child(even) {
+    margin-bottom: 1.5rem;
+  }
+}
