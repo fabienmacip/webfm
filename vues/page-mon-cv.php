@@ -1,29 +1,27 @@
 <div id="mon-cv-div">
     <h1>D&eacute;veloppeur web Fullstack</h1>
-    <br>
-    <div class="tc mb-15">
-        <a href="assets/doc/CV_Fabien_MACIP.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV au format PDF</a>
-    </div>
-    <div class="tc mb-15">
-        <a href="assets/doc/CV_Fabien_MACIP_sans_en_tete.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV <u>sans en-t&ecirc;te (anonym&eacute;)</u> au format PDF</a>
-    </div>
-    <div class="tc mb-15">
-        <a href="assets/doc/CV_Fabien_MACIP_avec_photo.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV <u>avec photo</u> au format PDF</a>
-    </div>
-    <div class="tc mb-15">
-        <a href="assets/doc/CV_Fabien_MACIP_enseignant.pdf" target="_blank" class="link-to-pdf">Voir/T&eacute;l&eacute;charger CV <u>enseignant</u> au format PDF</a>
-    </div>
-
+    <a  href="https://www.fatabien.com/webfm.fr/assets/doc/CV-Developpeur-web-fullstack---Fabien-MACIP.pdf" 
+        target="_blank"
+        class="link-to-pdf"
+    >
+        Voir/T&eacute;l&eacute;charger CV au format PDF
+    </a>
     <div id="mon-cv-photo-id">
         <img src="img/mon-cv/fabien-macip.jpg" alt="fabien macip photo identité" class="box">
     </div>
 
     <div id="mon-cv-imgs">
-        <?php for($i = 1; $i < 8 ; $i++) { ?>
-            <img src="assets/img/CV_Fabien_MACIP_page-000<?= $i ?>.jpg" alt="CV_Fabien_MACIP_page-000<?= $i ?>">
-            <br>
-            Page <?= $i ?>/7
-            <br>
-        <?php } ?>
+        <div class="pdf-container">
+            <iframe 
+                src="https://www.fatabien.com/webfm.fr/assets/doc/CV-Developpeur-web-fullstack---Fabien-MACIP.pdf"
+                width="100%" 
+                height="800px" 
+                style="border: none;"
+                title="CV Fabien MACIP">
+                <p>Votre navigateur ne supporte pas l'affichage des PDF. 
+                    <a href="https://www.fatabien.com/webfm.fr/assets/doc/CV-Developpeur-web-fullstack---Fabien-MACIP.pdf">Cliquez ici pour télécharger le PDF</a>
+                </p>
+            </iframe>
+        </div>
     </div>
 </div>

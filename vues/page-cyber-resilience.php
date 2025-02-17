@@ -40,7 +40,7 @@
 
                 </li>
                 <li>
-                    <a href="https://si-cloud.fr/campagne-de-phishing/" target="_blank">SI Cloud</a>, qui vous aide et vous conseille en mati&egrave;re de <b>Cyber S&eacute;curit&eacute;</b>.
+                    <a href="https://si-cloud.fr/pra-pca/" target="_blank">SI Cloud</a>, qui vous aide et vous conseille en mati&egrave;re de <b>Cyber S&eacute;curit&eacute;</b>.
                 </li>
             </ul>
             <br>
@@ -69,11 +69,12 @@
     </div>
 
     <div id="cr-si-cloud" class="cyber-partner">
+        
         <div>
-        <a href="https://si-cloud.fr/campagne-de-phishing/" target="_blank"><img src="img/cyber-resilience/si-cloud-logo.png" alt="si-cloud-logo"></a>
+        <a href="https://si-cloud.fr/pra-pca/" target="_blank"><img src="img/cyber-resilience/si-cloud-logo.png" alt="si-cloud-logo"></a>
         </div>
         <div>
-            <a href="https://si-cloud.fr/campagne-de-phishing/" target="_blank">SI Cloud</a> vous aide notamment &agrave; mettre en place :<br>
+            <a href="https://si-cloud.fr/pra-pca/" target="_blank">SI Cloud</a> vous aide notamment &agrave; mettre en place :<br>
             <ul>
                 <li>
                     votre P.R.A. (<b>plan de continuité d'activité</b>) (procédure préventive),
@@ -82,6 +83,7 @@
                     votre P.C.A. (<b>plan de reprise d'activité</b>) (procédure curative).
                 </li>
             </ul>
+            <!-- https://si-cloud.fr/campagne-de-phishing/ -->
         </div>
     </div>
 </div>

@@ -69,7 +69,7 @@
     "SGBD &rarr; MySql"
   ];
 
-/*  $projet2 = new Projet();
+  $projet2 = new Projet();
   $projet2->name = 'Appartement-rentable.com';
   $projet2->techName = 'AppartementRentable';
   $projet2->pathName = 'appartement-rentable';
@@ -82,7 +82,7 @@
   ];
   $projet2->descriptionTechnique = [
     "CMS &rarr; WordPress"
-  ];*/
+  ];
 
   $projet3 = new Projet();
   $projet3->name = 'CustHomeBike34.fr';
@@ -137,7 +137,7 @@
     "Modules en REACT (bilan pr&eacute;visionnel et quittances)"
   ];
 
-/*  $projet6 = new Projet();
+  $projet6 = new Projet();
   $projet6->name = 'La R&eacute;f&eacute;rence';
   $projet6->techName = 'Lmh';
   $projet6->pathName = 'lmh-perpignan';
@@ -156,9 +156,9 @@
     ["Biblioth&egrave;ques","JQuery","BootStrap"],
     "Architecture &rarr; M.V.C.",
     "SGBD &rarr; MySql"
-  ];*/
+  ];
 
-/*  $projet7 = new Projet();
+  $projet7 = new Projet();
   $projet7->name = 'Macip-courtage.fr';
   $projet7->techName = 'MacipCourtage';
   $projet7->pathName = 'macip-courtage';
@@ -172,7 +172,7 @@
     ["Langages", "Vanilla JS", "PHP Native", "HTML / CSS"],
     ["Biblioth&egrave;ques","JQuery","BootStrap"],
     "Architecture &rarr; M.V.C."
-  ];*/
+  ];
 
   $projet8 = new Projet();
   $projet8->name = 'Monts-et-lacs-81.fr';
@@ -210,7 +210,7 @@
     "SGBD &rarr; MySql"
   ];
 
-/*  $projet10 = new Projet();
+  $projet10 = new Projet();
   $projet10->name = 'Pcf-lcf.fr';
   $projet10->techName = 'PcfLcf';
   $projet10->pathName = 'pcf-lcf';
@@ -227,8 +227,8 @@
     ["Biblioth&egrave;ques","JQuery","BootStrap"],
     "Architecture &rarr; M.V.C."
   ];
-*/
-  $projets = [$projet1, $projet9, $projet3, $projet5, $projet4, $projet8];
+
+  $projets = [$projet1, $projet9, $projet6, $projet3, $projet5, $projet4, $projet7, $projet8, $projet2, $projet10];
 
 ?>
 

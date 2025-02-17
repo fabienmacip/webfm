@@ -1,22 +1,22 @@
 <div id="tarifs-div">
-    <h1>Tarifs et TJM</h1>
+    <h1>Tarifs<!-- et TJM--></h1>
     <p style="text-align: center; font-size: 11px;">
-        <i>TJM = Taux Journalier Moyen</i>
+        <!--<i>TJM = Taux Journalier Moyen</i>-->
     </p>
     <div class="box">
         <h2>Tarifs pour d&eacute;veloppement de site/application en direct client</h2>    
         <div class="tarifs-details">
             <div>
-                Les tarifs vont de 400,00 € HT
+                A partir de 800,00 € HT
             </div>
             <div>
-                Pour un <b>site vitrine simple</b>, avec :
+                Pour un <b>site vitrine classique</b>, avec :
                 <ul>
                     <li>
                         1 page d'accueil +
                     </li>
                     <li>
-                        2 pages suppl&eacute;mentaires +
+                        jusqu'&agrave; 2 pages suppl&eacute;mentaires +
                     </li>
                     <li>
                         1 page de mentions l&eacute;gales + 
@@ -33,7 +33,7 @@
                 <b>H&eacute;bergement</b> et <b>nom de domaine inclus</b>.
             </div>
             <div>
-                &Agrave; 800,00 € HT jusqu'&agrave; 2 000 € HT
+                De 800,00 € HT &agrave; 2 000 € HT
             </div>
             <div>
                 Pour ajouter un <b>espace d'administration</b> (possibilité de se connecter via mail + mot de 
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="box">
+    <!--<div class="box">
         <h2>T.J.M. pour mission via ESN ou direct client</h2>
         <div class="tarifs-details">
             <div>
@@ -75,9 +75,9 @@
             </div>
             <div>
                 Si full pr&eacute;sentiel ou hybride et/ou selon &eacute;loignement de mon domicile.<br><br>
-                Je suis install&eacute; pr&egrave;s de BEZIERS, donc ok pour de MONTPELLIER, PERPIGNAN, NIMES, AIX-EN-PROVENCE, TOULOUSE, PARIS.
+                Je suis install&eacute; pr&egrave;s de B&Eacute;ZIERS, donc ok pour MONTPELLIER, PERPIGNAN, N&Icirc;MES, AIX-EN-PROVENCE, TOULOUSE, PARIS.
             </div>
         </div>
-    </div>
+    </div>-->
 
 </div>
