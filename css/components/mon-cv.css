@@ -34,19 +34,3 @@
   border: 1px solid gray;
   margin-top: 1rem;
 }
-
-#iframe-cv {
-  height: 600px;
-}
-
-.pdf-container {
-  width: 100%;
-  max-width: 800px;
-  margin: 20px 0;
-}
-
-@media screen and (max-width: 732px) {
-  #iframe-cv {
-    height: 300;
-  }
-}
